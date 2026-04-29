@@ -1,1 +1,93 @@
+html {
+	font-family: 'Merriweather', serif;
+	line-height: 1.5;
+}
 
+h1, h2, h3 {
+	color: #AE053E;
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	font-size: 3.5rem;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+}
+
+h2 {
+	border-bottom: 5px solid;
+	font-size: 2.5rem;
+	margin: 4rem 0 2rem;
+	padding-bottom: .5rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+.site-intro {
+	font-size: 1.25rem;
+}
+
+main {
+	margin: auto;
+	max-width: 38rem;
+}
+
+ul {
+	list-style-type: square;
+}
+
+ul ul {
+	list-style-type: circle;
+}
+
+ol {
+	list-style-type: decimal-leading-zero;
+}
+
+a {
+	color: #006EAC;
+}
+
+a:visited {
+	color: #2A4758;
+}
+
+a:hover {
+	background-color: #006EAC;
+	color: white;
+}
+
+a:focus {
+	background-color: #AE053E;
+	color: white;
+}
+
+a:active {
+	background-color: black;
+	color: white;
+}
+
+.site-nav-list {
+	padding-left: 0;;
+}
+
+.site-nav-list li {
+	display: inline;
+}
+
+figure {
+	margin-left: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.design-example {
+	float: right;
+	margin: 0 0 1rem 1rem;
+	max-width: 30%;
+}
